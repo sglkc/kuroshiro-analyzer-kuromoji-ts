@@ -22,7 +22,7 @@ node_modules
 coverage
 
 # Generated files
-dist/*
+#dist/*
 lib/*
 
 # Others
