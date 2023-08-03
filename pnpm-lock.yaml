@@ -7,7 +7,7 @@ settings:
 dependencies:
   kuromoji:
     specifier: github:sglkc/kuromoji.js
-    version: github.com/sglkc/kuromoji.js/e203a412700e34d24243dc0be3ba7e8a6d7b1825
+    version: github.com/sglkc/kuromoji.js/386d6c60fb60da21836b4b65e2f5833e7d906aa8
 
 devDependencies:
   babel-cli:
@@ -5779,11 +5779,10 @@ packages:
       yargs-parser: 8.1.0
     dev: true
 
-  github.com/sglkc/kuromoji.js/e203a412700e34d24243dc0be3ba7e8a6d7b1825:
-    resolution: {tarball: https://codeload.github.com/sglkc/kuromoji.js/tar.gz/e203a412700e34d24243dc0be3ba7e8a6d7b1825}
+  github.com/sglkc/kuromoji.js/386d6c60fb60da21836b4b65e2f5833e7d906aa8:
+    resolution: {tarball: https://codeload.github.com/sglkc/kuromoji.js/tar.gz/386d6c60fb60da21836b4b65e2f5833e7d906aa8}
     name: kuromoji
     version: 0.1.2
-    engines: {node: ^8.10, npm: ^6}
     dependencies:
       async: 2.6.4
       doublearray: 0.0.2
