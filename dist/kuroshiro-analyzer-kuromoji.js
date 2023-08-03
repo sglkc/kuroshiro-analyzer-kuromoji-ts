@@ -10333,7 +10333,7 @@ BrowserDictionaryLoader.prototype.loadArrayBuffer = function (url, callback) {
 
         response.arrayBuffer().then(function (arraybuffer) {
             var gz = fflate.gunzipSync(new Uint8Array(arraybuffer));
-            callback(null, gz);
+            callback(null, gz.buffer);
         });
     }).catch(function (exception) {
         callback(exception, null);
