@@ -40,9 +40,6 @@
         "url": "https://github.com/hexenq/kuroshiro-analyzer-kuromoji/issues"
     },
     "homepage": "https://github.com/hexenq/kuroshiro-analyzer-kuromoji",
-    "dependencies": {
-        "kuromoji": "github:sglkc/kuromoji.js"
-    },
     "devDependencies": {
         "babel-cli": "^6.26.0",
         "babel-core": "^6.26.0",
@@ -75,5 +72,8 @@
         "testRegex": "(/test/.*|(\\.|/)(test|spec))\\.jsx?$",
         "testURL": "http://localhost"
     },
-    "types": "./src/index.d.ts"
+    "types": "./src/index.d.ts",
+    "dependencies": {
+        "kuromoji": "github:sglkc/kuromoji.js"
+    }
 }

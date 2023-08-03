@@ -7,7 +7,7 @@ settings:
 dependencies:
   kuromoji:
     specifier: github:sglkc/kuromoji.js
-    version: github.com/sglkc/kuromoji.js/792c9a7fe654a4635073fa3e7e84ca08d6fd2e2f
+    version: github.com/sglkc/kuromoji.js/e203a412700e34d24243dc0be3ba7e8a6d7b1825
 
 devDependencies:
   babel-cli:
@@ -2335,6 +2335,10 @@ packages:
     dependencies:
       bser: 2.1.1
     dev: true
+
+  /fflate@0.8.0:
+    resolution: {integrity: sha512-FAdS4qMuFjsJj6XHbBaZeXOgaypXp8iw/Tpyuq/w3XA41jjLHT8NPA+n7czH/DDhdncq0nAyDZmPeWXh2qmdIg==}
+    dev: false
 
   /figures@2.0.0:
     resolution: {integrity: sha512-Oa2M9atig69ZkfwiApY8F2Yy+tzMbazyvqv21R0NsSC8floSOC09BbT1ITWAdoMGQvJ/aZnR1KMwdx9tvHnTNA==}
@@ -5775,16 +5779,13 @@ packages:
       yargs-parser: 8.1.0
     dev: true
 
-  /zlibjs@0.3.1:
-    resolution: {integrity: sha512-+J9RrgTKOmlxFSDHo0pI1xM6BLVUv+o0ZT9ANtCxGkjIVCCUdx9alUF8Gm+dGLKbkkkidWIHFDZHDMpfITt4+w==}
-    dev: false
-
-  github.com/sglkc/kuromoji.js/792c9a7fe654a4635073fa3e7e84ca08d6fd2e2f:
-    resolution: {tarball: https://codeload.github.com/sglkc/kuromoji.js/tar.gz/792c9a7fe654a4635073fa3e7e84ca08d6fd2e2f}
+  github.com/sglkc/kuromoji.js/e203a412700e34d24243dc0be3ba7e8a6d7b1825:
+    resolution: {tarball: https://codeload.github.com/sglkc/kuromoji.js/tar.gz/e203a412700e34d24243dc0be3ba7e8a6d7b1825}
     name: kuromoji
     version: 0.1.2
+    engines: {node: ^8.10, npm: ^6}
     dependencies:
       async: 2.6.4
       doublearray: 0.0.2
-      zlibjs: 0.3.1
+      fflate: 0.8.0
     dev: false
