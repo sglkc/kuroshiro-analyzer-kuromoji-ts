@@ -1,6 +1,6 @@
 {
     "name": "@sglkc/kuroshiro-analyzer-kuromoji",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Forked version of kuroshiro-analyzer-kuromoji with TypeScript support and better compatibility for browsers",
     "main": "lib/index.js",
     "module": "src/index.js",
