@@ -1,4 +1,4 @@
-import kuromoji from "kuromoji";
+import kuromoji from "@sglkc/kuromoji";
 
 // Check where we are
 let isNode = false;
@@ -20,8 +20,8 @@ class Analyzer {
         this._analyzer = null;
 
         if (!dictPath) {
-            if (isNode) this._dictPath = require.resolve("kuromoji").replace(/src(?!.*src).*/, "dict/");
-            else this._dictPath = "node_modules/kuromoji/dict/";
+            if (isNode) this._dictPath = require.resolve("@sglkc/kuromoji").replace(/src(?!.*src).*/, "dict/");
+            else this._dictPath = "node_modules/@sglkc/kuromoji/dict/";
         }
         else {
             this._dictPath = dictPath;

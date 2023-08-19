@@ -1,7 +1,7 @@
 {
-    "name": "kuroshiro-analyzer-kuromoji",
-    "version": "1.2.0",
-    "description": "kuromoji morphological analyzer for kuroshiro",
+    "name": "@sglkc/kuroshiro-analyzer-kuromoji",
+    "version": "1.0.0",
+    "description": "Forked version of kuroshiro-analyzer-kuromoji with TypeScript support and better compatibility for browsers",
     "main": "lib/index.js",
     "module": "src/index.js",
     "scripts": {
@@ -32,14 +32,14 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/hexenq/kuroshiro-analyzer-kuromoji.git"
+        "url": "https://github.com/sglkc/kuroshiro-analyzer-kuromoji-ts.git"
     },
-    "author": "Hexen Qi",
+    "author": "sglkc",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/hexenq/kuroshiro-analyzer-kuromoji/issues"
+        "url": "https://github.com/sglkc/kuroshiro-analyzer-kuromoji-ts/issues"
     },
-    "homepage": "https://github.com/hexenq/kuroshiro-analyzer-kuromoji",
+    "homepage": "https://github.com/sglkc/kuroshiro-analyzer-kuromoji-ts",
     "devDependencies": {
         "babel-cli": "^6.26.0",
         "babel-core": "^6.26.0",
@@ -74,6 +74,6 @@
     },
     "types": "./src/index.d.ts",
     "dependencies": {
-        "kuromoji": "github:sglkc/kuromoji.js#0.2.0"
+        "@sglkc/kuromoji": "^1.0.1"
     }
 }
